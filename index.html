@@ -5,20 +5,21 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+  <div class = "container">
+    <h3>Let's Do Some Math!</h3>
+    <h4>Type in two numbers. Find the sum of your numbers by clicking calculate!</h4>
 
-<h3>Let's Do Some Math!</h3>
+    <p>Number 1:</p><input type="text" id="num_one" />
+    <br /><br />
+    <p>Number 2:</p><input type="text" id="num_two" />
+    <br /><br />
+    <input type="submit" value="Calculate" id="calculateBtn" />
 
-<input type="text" id="num_one" />
-<br /><br />
-<input type="text" id="num_two" />
-<br /><br />
-<input type="submit" value="Calculate" id="calculateBtn" />
-
-<div class="answer">
-  <br />
-  Answer: <span id="answer"></span>
-</div>
-
+    <div class="answer">
+      <br />
+      Answer: <span id="answer"></span>
+    </div>
+  </div>
 <script src="main.js"></script>
 
 </body>

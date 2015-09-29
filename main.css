@@ -1,0 +1,12 @@
+*{
+  text-align: center;
+}
+
+h3{
+  padding-top: 50px;
+}
+
+.container{
+  background-color: grey;
+  width: 400px;
+}
